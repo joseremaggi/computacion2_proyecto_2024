@@ -9,20 +9,25 @@ async def tcp_client():
                 break
 
             mensaje = data.decode().strip()
-            if mensaje.endswith("FIN"):  # Detectar indicador "FIN"
-                print(mensaje[:-3])  # Mostrar mensaje sin "FIN"
-                break
 
-            print(f'Pregunta recibida: {mensaje}')
-            respuesta = input('Ingresa tu respuesta (A/B/C/D): ').strip().upper()
-            writer.write(respuesta.encode())
-            await writer.drain()
+            # Detectar mensajes específicos del servidor
+            if mensaje.startswith("PREGUNTA:"):
+                print(f'Pregunta recibida: {mensaje[9:]}')  # Mostrar sin el prefijo "PREGUNTA:"
+                respuesta = input('Ingresa tu respuesta (A/B/C/D): ').strip().upper()
+                writer.write(respuesta.encode())
+                await writer.drain()
+            elif mensaje.startswith("RESULTADO:"):
+                print(mensaje[10:])  # Mostrar sin el prefijo "RESULTADO:"
+            elif mensaje.endswith("FIN"):
+                print(mensaje[:-3])  # Mostrar mensaje final sin "FIN"
+                break
 
     except ConnectionResetError:
         print("Conexión cerrada por el servidor.")
     finally:
         writer.close()
         await writer.wait_closed()
+
 
 if __name__ == "__main__":
     asyncio.run(tcp_client())

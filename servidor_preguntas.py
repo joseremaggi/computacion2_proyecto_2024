@@ -58,14 +58,16 @@ async def handle_client(reader, writer):
 
 
 # Función para enviar preguntas y manejar respuestas
+# Modificación en la función broadcast_pregunta para indicar tipos de mensajes
 async def broadcast_pregunta(num_preguntas):
     global preguntas_enviadas
     while preguntas_enviadas < num_preguntas:
         if clients:  # Verifica si hay clientes conectados
             pregunta = obtener_pregunta_aleatoria()
             pregunta_texto = (
-                f"{pregunta['pregunta']}\nA) {pregunta['opciones']['A']}\nB) {pregunta['opciones']['B']}\n"
-                f"C) {pregunta['opciones']['C']}\nD) {pregunta['opciones']['D']}\n")
+                f"PREGUNTA:{pregunta['pregunta']}\nA) {pregunta['opciones']['A']}\nB) {pregunta['opciones']['B']}\n"
+                f"C) {pregunta['opciones']['C']}\nD) {pregunta['opciones']['D']}\n"
+            )
 
             # Enviar la pregunta a todos los clientes conectados
             for _, writer in clients:
@@ -80,9 +82,11 @@ async def broadcast_pregunta(num_preguntas):
                 if status == "correcta":
                     async with game_semaphore:
                         puntos_jugadores[addr] += 1
-                    mensaje = f"¡Correcto! Tienes {puntos_jugadores[addr]} puntos.\n"
-                else:
-                    mensaje = f"Incorrecto. La respuesta correcta era {pregunta['respuesta_correcta']}. Tienes {puntos_jugadores[addr]} puntos.\n"
+                    mensaje = f"RESULTADO:¡Correcto! Tienes {puntos_jugadores[addr]} puntos.\n"
+                elif status == "incorrecta":
+                    mensaje = f"RESULTADO:Incorrecto. La respuesta correcta era {pregunta['respuesta_correcta']}. Tienes {puntos_jugadores[addr]} puntos.\n"
+                else:  # Timeout o desconexión
+                    mensaje = "RESULTADO:No respondiste a tiempo.\n"
 
                 writer.write(mensaje.encode())
                 await writer.drain()
@@ -121,13 +125,26 @@ async def obtener_respuestas(respuesta_correcta):
 # Función para anunciar al ganador
 async def anunciar_ganador():
     if puntos_jugadores:
-        ganador = max(puntos_jugadores, key=puntos_jugadores.get)
-        puntos = puntos_jugadores[ganador]
-        mensaje_final = f"¡Juego terminado! El ganador es {ganador} con {puntos} puntos.\n"
+        # Obtener la puntuación máxima
+        max_puntos = max(puntos_jugadores.values())
 
+        if max_puntos == 0:  # Si nadie sumó puntos
+            mensaje_final = "¡Juego terminado! No hay ganador porque nadie sumó puntos.\n"
+        else:
+            # Filtrar jugadores con la puntuación máxima
+            ganadores = [jugador for jugador, puntos in puntos_jugadores.items() if puntos == max_puntos]
+
+            if len(ganadores) > 1:  # Si hay más de un ganador, es un empate
+                mensaje_final = f"¡Juego terminado! Es un empate entre los siguientes jugadores con {max_puntos} puntos:\n"
+                mensaje_final += "\n".join([str(ganador) for ganador in ganadores])
+            else:  # Hay un solo ganador
+                ganador = ganadores[0]
+                mensaje_final = f"¡Juego terminado! El ganador es {ganador} con {max_puntos} puntos.\n"
+
+        # Enviar el mensaje final a todos los clientes
         for _, writer in clients:
             try:
-                writer.write((mensaje_final + "FIN").encode())  # Agregar indicador "FIN"
+                writer.write((mensaje_final + "\nFIN").encode())  # Agregar indicador "FIN"
                 await writer.drain()
             except Exception as e:
                 print(f"Error enviando mensaje a cliente: {e}")
@@ -143,8 +160,6 @@ async def anunciar_ganador():
     clients.clear()
 
 
-
-
 # Función principal del servidor
 # Función principal del servidor
 async def main(file, num_preguntas):
@@ -154,7 +169,7 @@ async def main(file, num_preguntas):
     # Configuración del servidor para IPv4 e IPv6
     server = await asyncio.start_server(
         handle_client,
-        host='::',  # Escucha en IPv4 e IPv6
+        host='127.0.0.1',  # Escucha en IPv4 e IPv6
         port=8888,  # Puerto para el servidor
     )
 
