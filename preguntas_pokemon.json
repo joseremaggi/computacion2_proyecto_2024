@@ -1,0 +1,102 @@
+[
+    {
+        "pregunta": "¿Cómo evoluciona Pikachu?",
+        "opciones": {
+            "A": "Con una piedra trueno",
+            "B": "Subiendo al nivel 30",
+            "C": "Con una piedra fuego",
+            "D": "En el nivel 16"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Cuáles son los Pokémon iniciales de la primera generación?",
+        "opciones": {
+            "A": "Pikachu, Bulbasaur, Charmander",
+            "B": "Bulbasaur, Charmander, Squirtle",
+            "C": "Chikorita, Cyndaquil, Totodile",
+            "D": "Charmander, Pikachu, Eevee"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Cuál de estas ciudades pertenece a la región de Kanto?",
+        "opciones": {
+            "A": "Ciudad Trigal",
+            "B": "Ciudad Azulona",
+            "C": "Ciudad Azafrán",
+            "D": "Ciudad Malva"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Cuál de estos movimientos no puede aprender Charizard?",
+        "opciones": {
+            "A": "Llamarada",
+            "B": "Vuelo",
+            "C": "Surf",
+            "D": "Lanzallamas"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Cuál es el Pokémon legendario de tipo eléctrico en la primera generación?",
+        "opciones": {
+            "A": "Articuno",
+            "B": "Zapdos",
+            "C": "Moltres",
+            "D": "Raikou"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué tipo es efectivo contra los Pokémon de tipo psíquico en la primera generación?",
+        "opciones": {
+            "A": "Planta",
+            "B": "Lucha",
+            "C": "Fantasma",
+            "D": "Tierra"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Cuántos Pokémon existen en la Pokédex de la primera generación?",
+        "opciones": {
+            "A": "151",
+            "B": "150",
+            "C": "200",
+            "D": "100"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué objeto necesitas para evolucionar a Eevee en Vaporeon?",
+        "opciones": {
+            "A": "Piedra fuego",
+            "B": "Piedra trueno",
+            "C": "Piedra agua",
+            "D": "Piedra hoja"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Cuál es el líder de gimnasio que usa Pokémon tipo roca en Kanto?",
+        "opciones": {
+            "A": "Brock",
+            "B": "Misty",
+            "C": "Lt. Surge",
+            "D": "Erika"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿En qué ciudad puedes obtener la medalla de niebla en Kanto?",
+        "opciones": {
+            "A": "Ciudad Celeste",
+            "B": "Ciudad Azulona",
+            "C": "Ciudad Azafrán",
+            "D": "Ciudad Fucsia"
+        },
+        "respuesta_correcta": "A"
+    }
+]
