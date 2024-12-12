@@ -1,6 +1,7 @@
 import asyncio
 async def tcp_client():
-    reader, writer = await asyncio.open_connection('127.0.0.1', 8888)
+    reader, writer = await asyncio.open_connection('::1', 8888)
+ #  reader, writer = await asyncio.open_connection('127.0.0.1', 8888)
 
     try:
         while True:
