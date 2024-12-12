@@ -1,0 +1,102 @@
+[
+    {
+        "pregunta": "¿Cuántos Pokémon básicos se pueden colocar en el banco al inicio del juego?",
+        "opciones": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Cuál es el objetivo principal para ganar en el juego de cartas de Pokémon?",
+        "opciones": {
+            "A": "Derrotar a todos los Pokémon del oponente",
+            "B": "Robar todas tus cartas premio",
+            "C": "Quedarte sin cartas en el mazo",
+            "D": "Tener más energía en juego"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Cuántas cartas premio se colocan al inicio de una partida estándar?",
+        "opciones": {
+            "A": "3",
+            "B": "4",
+            "C": "6",
+            "D": "8"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Qué tipo de carta se usa para atacar con un Pokémon?",
+        "opciones": {
+            "A": "Cartas de entrenador",
+            "B": "Cartas de energía",
+            "C": "Cartas de estadio",
+            "D": "Cartas de habilidad"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué significa cuando un Pokémon está en estado 'Paralizado'?",
+        "opciones": {
+            "A": "No puede atacar ni retirarse en su próximo turno",
+            "B": "Recibe el doble de daño",
+            "C": "Debe ser curado antes de atacar",
+            "D": "Pierde todas sus cartas de energía"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué carta permite cambiar al Pokémon Activo sin pagar el costo de retirada?",
+        "opciones": {
+            "A": "Cambio",
+            "B": "Poción",
+            "C": "Energía Doble",
+            "D": "Rescate"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Cuántas cartas se deben robar al inicio de una partida estándar?",
+        "opciones": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "10"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Qué tipo de carta se utiliza para evolucionar a un Pokémon básico?",
+        "opciones": {
+            "A": "Carta de evolución",
+            "B": "Carta de entrenador",
+            "C": "Carta de energía",
+            "D": "Carta de estadio"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué ocurre si un jugador no tiene más Pokémon en el banco después de que su Pokémon Activo sea derrotado?",
+        "opciones": {
+            "A": "Gana el oponente automáticamente",
+            "B": "Debe robar una carta extra",
+            "C": "Debe buscar otro Pokémon en el mazo",
+            "D": "Debe usar una carta de entrenador para continuar"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué tipo de carta puede ser jugada para afectar a todo el campo de batalla?",
+        "opciones": {
+            "A": "Carta de energía",
+            "B": "Carta de estadio",
+            "C": "Carta de habilidad",
+            "D": "Carta de soporte"
+        },
+        "respuesta_correcta": "B"
+    }
+]

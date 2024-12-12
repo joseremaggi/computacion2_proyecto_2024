@@ -1,0 +1,202 @@
+[
+    {
+        "pregunta": "¿Quién es el líder del grupo principal en *Digimon Adventure*?",
+        "opciones": {
+            "A": "Tai Kamiya",
+            "B": "Matt Ishida",
+            "C": "Izzy Izumi",
+            "D": "TK Takaishi"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Cuál es el objetivo principal de los protagonistas en *Monster Rancher*?",
+        "opciones": {
+            "A": "Salvar al mundo de Moo",
+            "B": "Coleccionar medallas de torneo",
+            "C": "Capturar todos los monstruos",
+            "D": "Derrotar a sus rivales en duelos"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué arma utiliza Tyson en *Beyblade*?",
+        "opciones": {
+            "A": "Un beyblade llamado Dragoon",
+            "B": "Una espada mágica",
+            "C": "Un beyblade llamado Dranzer",
+            "D": "Una lanza espiritual"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del medabot principal de Ikki en *Medabots*?",
+        "opciones": {
+            "A": "Rokusho",
+            "B": "Metabee",
+            "C": "Brass",
+            "D": "Crosserdog"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "En *Digimon Adventure*, ¿qué Digimon acompaña a Matt Ishida?",
+        "opciones": {
+            "A": "Agumon",
+            "B": "Gabumon",
+            "C": "Tentomon",
+            "D": "Biyomon"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué deben hacer los protagonistas en *Monster Rancher* para desbloquear nuevos monstruos?",
+        "opciones": {
+            "A": "Ganar torneos",
+            "B": "Usar discos de piedra",
+            "C": "Recoger gemas mágicas",
+            "D": "Completar mazmorras"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué tipo de energía necesitan los beyblades para girar?",
+        "opciones": {
+            "A": "Energía mística",
+            "B": "Fuerza física",
+            "C": "Energía de bestia bit",
+            "D": "Poder de cristal"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Qué es un *Medapart* en *Medabots*?",
+        "opciones": {
+            "A": "Una pieza que mejora al Medabot",
+            "B": "Un ataque especial",
+            "C": "Un escudo de protección",
+            "D": "Un compañero adicional"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "En *Digimon Adventure*, ¿qué objeto permite a los niños elegidos digievolucionar a sus Digimon?",
+        "opciones": {
+            "A": "Un brazalete",
+            "B": "Un digivice",
+            "C": "Una carta mágica",
+            "D": "Una piedra sagrada"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "En *Monster Rancher*, ¿quién es el principal antagonista?",
+        "opciones": {
+            "A": "Moo",
+            "B": "Zanza",
+            "C": "Gaia",
+            "D": "Chronos"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Cómo se llama el grupo rival principal en *Beyblade*?",
+        "opciones": {
+            "A": "Los Bladebreakers",
+            "B": "Los Dark Bladers",
+            "C": "Los Shadow Hunters",
+            "D": "Los Metal Masters"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "En *Medabots*, ¿qué es un *Robattle*?",
+        "opciones": {
+            "A": "Un duelo entre Medabots",
+            "B": "Un torneo de combate",
+            "C": "Un sistema de entrenamiento",
+            "D": "Un nivel de evolución"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Cuál es la evolución de Gabumon en *Digimon Adventure*?",
+        "opciones": {
+            "A": "Greymon",
+            "B": "Garurumon",
+            "C": "Angemon",
+            "D": "MetalGarurumon"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "En *Monster Rancher*, ¿qué monstruo es conocido por ser amable pero poderoso?",
+        "opciones": {
+            "A": "Suezo",
+            "B": "Mocchi",
+            "C": "Tiger",
+            "D": "Golem"
+        },
+        "respuesta_correcta": "D"
+    },
+    {
+        "pregunta": "En *Beyblade*, ¿qué representa el Dragoon de Tyson?",
+        "opciones": {
+            "A": "Un dragón de agua",
+            "B": "Un dragón de viento",
+            "C": "Un dragón de fuego",
+            "D": "Un dragón de tierra"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué caracteriza a Metabee en *Medabots*?",
+        "opciones": {
+            "A": "Su increíble velocidad",
+            "B": "Su actitud rebelde",
+            "C": "Su estrategia impecable",
+            "D": "Su defensa inquebrantable"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "En *Digimon Adventure*, ¿qué representa el emblema de Sora Takenouchi?",
+        "opciones": {
+            "A": "Amor",
+            "B": "Coraje",
+            "C": "Esperanza",
+            "D": "Amistad"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "En *Monster Rancher*, ¿qué habilidad especial tiene Suezo?",
+        "opciones": {
+            "A": "Visión psíquica",
+            "B": "Fuerza bruta",
+            "C": "Control del clima",
+            "D": "Velocidad sobrehumana"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "En *Beyblade*, ¿quién es el principal rival de Tyson?",
+        "opciones": {
+            "A": "Kai",
+            "B": "Ray",
+            "C": "Max",
+            "D": "Daichi"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "En *Medabots*, ¿quién es el creador del Medabot Rokusho?",
+        "opciones": {
+            "A": "Dr. Aki",
+            "B": "Profesor Hushi",
+            "C": "Dr. Meta-Evil",
+            "D": "Henry"
+        },
+        "respuesta_correcta": "A"
+    }
+]

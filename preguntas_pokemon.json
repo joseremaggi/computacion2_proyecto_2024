@@ -98,5 +98,405 @@
             "D": "Ciudad Fucsia"
         },
         "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Quién es el rival principal de Ash en la primera temporada?",
+        "opciones": {
+            "A": "Gary Oak",
+            "B": "James",
+            "C": "Brock",
+            "D": "Misty"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué tipo de Pokémon usa Misty en su gimnasio?",
+        "opciones": {
+            "A": "Eléctrico",
+            "B": "Agua",
+            "C": "Fuego",
+            "D": "Tierra"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué Pokémon es conocido como el Pokémon Gigante que aparece en un episodio de la primera temporada?",
+        "opciones": {
+            "A": "Dragonite",
+            "B": "Gyarados",
+            "C": "Snorlax",
+            "D": "Onix"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Cómo se llama el objeto que permite a los entrenadores capturar Pokémon?",
+        "opciones": {
+            "A": "PokéNav",
+            "B": "Poké Ball",
+            "C": "Pokédex",
+            "D": "Pokégear"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué Pokémon cuida constantemente Togepi en la primera temporada?",
+        "opciones": {
+            "A": "Ash",
+            "B": "Misty",
+            "C": "Brock",
+            "D": "Pikachu"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Quién entrega a Ash su Pokédex en el primer episodio?",
+        "opciones": {
+            "A": "El Profesor Oak",
+            "B": "Misty",
+            "C": "Brock",
+            "D": "Gary Oak"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué Pokémon se convierte en Butterfree tras evolucionar?",
+        "opciones": {
+            "A": "Caterpie",
+            "B": "Weedle",
+            "C": "Metapod",
+            "D": "Kakuna"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Cuál es el ataque característico de Pikachu en el anime?",
+        "opciones": {
+            "A": "Lanzallamas",
+            "B": "Rayo",
+            "C": "Impactrueno",
+            "D": "Ataque Rápido"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Qué Pokémon ayuda a Ash a cruzar el océano en la película 'Mewtwo Contraataca'?",
+        "opciones": {
+            "A": "Lapras",
+            "B": "Gyarados",
+            "C": "Charizard",
+            "D": "Pidgeot"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué Pokémon fue el primero que Ash atrapó?",
+        "opciones": {
+            "A": "Pidgeotto",
+            "B": "Caterpie",
+            "C": "Bulbasaur",
+            "D": "Krabby"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué tipo de Pokémon es Charmander?",
+        "opciones": {
+            "A": "Fuego",
+            "B": "Agua",
+            "C": "Planta",
+            "D": "Roca"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué Pokémon usa Misty con más frecuencia en la primera temporada?",
+        "opciones": {
+            "A": "Starmie",
+            "B": "Togepi",
+            "C": "Psyduck",
+            "D": "Goldeen"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del Profesor que entrega los Pokémon iniciales en Kanto?",
+        "opciones": {
+            "A": "Profesor Birch",
+            "B": "Profesor Oak",
+            "C": "Profesor Elm",
+            "D": "Profesor Sycamore"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Cuál es el Pokémon que Ash intenta atrapar en el primer episodio del anime?",
+        "opciones": {
+            "A": "Caterpie",
+            "B": "Pidgey",
+            "C": "Spearow",
+            "D": "Rattata"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué objeto usa Ash para salvar a Pikachu de los Spearow en el primer episodio?",
+        "opciones": {
+            "A": "Piedra trueno",
+            "B": "Bicicleta",
+            "C": "Poké Ball",
+            "D": "Piedra fuego"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué Pokémon aparece en el cielo al final del primer episodio?",
+        "opciones": {
+            "A": "Ho-Oh",
+            "B": "Lugia",
+            "C": "Articuno",
+            "D": "Zapdos"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué habilidad especial tiene Togepi, el Pokémon que acompaña a Misty?",
+        "opciones": {
+            "A": "Metronomo",
+            "B": "Vuelo",
+            "C": "Psíquico",
+            "D": "Teleport"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué Pokémon regala Ash a una entrenadora durante sus viajes?",
+        "opciones": {
+            "A": "Charmander",
+            "B": "Butterfree",
+            "C": "Bulbasaur",
+            "D": "Squirtle"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué Pokémon evoluciona durante un torneo en el anime?",
+        "opciones": {
+            "A": "Charmeleon a Charizard",
+            "B": "Caterpie a Metapod",
+            "C": "Squirtle a Wartortle",
+            "D": "Pidgeotto a Pidgeot"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué Pokémon tiene James del Equipo Rocket como compañero principal?",
+        "opciones": {
+            "A": "Meowth",
+            "B": "Koffing",
+            "C": "Weezing",
+            "D": "Victreebel"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué Pokémon captura Ash en el Bosque Verde?",
+        "opciones": {
+            "A": "Caterpie",
+            "B": "Weedle",
+            "C": "Metapod",
+            "D": "Pidgeotto"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué Pokémon usa Brock como su principal compañero?",
+        "opciones": {
+            "A": "Onix",
+            "B": "Geodude",
+            "C": "Vulpix",
+            "D": "Zubat"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Cómo se llama la competencia en la que Ash participa en la Liga Naranja?",
+        "opciones": {
+            "A": "Liga Índigo",
+            "B": "Liga Naranja",
+            "C": "Campeonato de la Isla Naranja",
+            "D": "Torneo Pokémon"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué Pokémon evoluciona en Butterfree?",
+        "opciones": {
+            "A": "Caterpie",
+            "B": "Weedle",
+            "C": "Metapod",
+            "D": "Venonat"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Cuál es el Pokémon que Ash utiliza para apagar un incendio en la Isla Naranja?",
+        "opciones": {
+            "A": "Squirtle",
+            "B": "Lapras",
+            "C": "Charizard",
+            "D": "Pidgeot"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué Pokémon usa Misty para luchar contra Ash en el Gimnasio Celeste?",
+        "opciones": {
+            "A": "Starmie",
+            "B": "Goldeen",
+            "C": "Horsea",
+            "D": "Psyduck"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué Pokémon acompaña a Tracey durante la segunda temporada?",
+        "opciones": {
+            "A": "Scyther",
+            "B": "Marill",
+            "C": "Venonat",
+            "D": "Todos los anteriores"
+        },
+        "respuesta_correcta": "D"
+    },
+    {
+        "pregunta": "¿Qué Pokémon captura Ash en la Isla Naranja que tiene habilidades artísticas?",
+        "opciones": {
+            "A": "Smeargle",
+            "B": "Scyther",
+            "C": "Lapras",
+            "D": "Tauros"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Qué objeto mágico busca siempre el Equipo Rocket?",
+        "opciones": {
+            "A": "Pokémon raros",
+            "B": "La Poké Ball Maestra",
+            "C": "Piedras evolutivas",
+            "D": "Pokémon Pikachu"
+        },
+        "respuesta_correcta": "D"
+    },
+    {
+        "pregunta": "¿Qué Pokémon se une al Escuadrón Squirtle liderado por Ash?",
+        "opciones": {
+            "A": "Bulbasaur",
+            "B": "Charmander",
+            "C": "Squirtle",
+            "D": "Pidgeotto"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Qué Pokémon regala Ash a un entrenador en la Isla Naranja?",
+        "opciones": {
+            "A": "Charizard",
+            "B": "Lapras",
+            "C": "Pidgeot",
+            "D": "Tauros"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué Pokémon evoluciona a Raichu?",
+        "opciones": {
+            "A": "Pichu",
+            "B": "Pikachu",
+            "C": "Eevee",
+            "D": "Meowth"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué Pokémon legendario aparece en la película *Pokémon: Mewtwo Contraataca*?",
+        "opciones": {
+            "A": "Zapdos",
+            "B": "Mew",
+            "C": "Ho-Oh",
+            "D": "Lugia"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué Pokémon de Ash derrota a Blaine en el Gimnasio de Isla Canela?",
+        "opciones": {
+            "A": "Squirtle",
+            "B": "Pikachu",
+            "C": "Charizard",
+            "D": "Lapras"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Qué Pokémon del Equipo Rocket no utiliza Poké Ball?",
+        "opciones": {
+            "A": "Meowth",
+            "B": "Wobbuffet",
+            "C": "Koffing",
+            "D": "Ekans"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué Pokémon utiliza Ash para derrotar al Onix de Brock?",
+        "opciones": {
+            "A": "Charmander",
+            "B": "Pikachu",
+            "C": "Bulbasaur",
+            "D": "Squirtle"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué Pokémon usa Misty como transporte en el agua?",
+        "opciones": {
+            "A": "Psyduck",
+            "B": "Starmie",
+            "C": "Goldeen",
+            "D": "Lapras"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué Pokémon conoce Ash en el Festival de la Isla Shamouti?",
+        "opciones": {
+            "A": "Moltres",
+            "B": "Lugia",
+            "C": "Articuno",
+            "D": "Zapdos"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué habilidad tiene Snorlax, el Pokémon que Ash captura en las Islas Naranja?",
+        "opciones": {
+            "A": "Dormir profundamente",
+            "B": "Súper fuerza",
+            "C": "Hidratación",
+            "D": "Inmunidad"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Cuál es el Pokémon más pequeño que aparece en la primera generación?",
+        "opciones": {
+            "A": "Jigglypuff",
+            "B": "Caterpie",
+            "C": "Rattata",
+            "D": "Diglett"
+        },
+        "respuesta_correcta": "B"
     }
 ]

@@ -1,0 +1,202 @@
+[
+    {
+        "pregunta": "¿Cuál fue el primer videojuego de Pokémon lanzado en la historia?",
+        "opciones": {
+            "A": "Pokémon Rojo y Azul",
+            "B": "Pokémon Amarillo",
+            "C": "Pokémon Verde y Rojo",
+            "D": "Pokémon Oro y Plata"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "En *Pokémon Stadium*, ¿cuál es el nombre del último entrenador que debes derrotar en el modo Renta?",
+        "opciones": {
+            "A": "Giovanni",
+            "B": "Lance",
+            "C": "Blue",
+            "D": "Mewtwo"
+        },
+        "respuesta_correcta": "D"
+    },
+    {
+        "pregunta": "¿Qué mecánica se introdujo por primera vez en *Pokémon Ranger*?",
+        "opciones": {
+            "A": "La captura mediante círculos trazados con el stylus",
+            "B": "La crianza de Pokémon",
+            "C": "Los intercambios por conexión inalámbrica",
+            "D": "El uso de habilidades ocultas"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "En *Pokémon Snap*, ¿cuál es el objetivo principal del jugador?",
+        "opciones": {
+            "A": "Atrapar Pokémon en Pokéballs",
+            "B": "Fotografiar Pokémon en su hábitat natural",
+            "C": "Entrenar Pokémon para batallas",
+            "D": "Rescatar Pokémon en peligro"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué tipo de juego es *Pokémon Pinball*?",
+        "opciones": {
+            "A": "Un juego de estrategia por turnos",
+            "B": "Un juego de aventura",
+            "C": "Un juego de pinball con temática Pokémon",
+            "D": "Un juego de rompecabezas"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "En los juegos principales, ¿cuál fue la primera generación en introducir las batallas dobles?",
+        "opciones": {
+            "A": "Primera generación",
+            "B": "Segunda generación",
+            "C": "Tercera generación",
+            "D": "Cuarta generación"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "En *Pokémon Mystery Dungeon*, ¿cómo se determina qué Pokémon serás al inicio del juego?",
+        "opciones": {
+            "A": "Eligiendo tu Pokémon favorito",
+            "B": "Mediante un cuestionario de personalidad",
+            "C": "Por el nivel del jugador",
+            "D": "Por los Pokémon disponibles en tu equipo"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué consola fue la primera en tener un juego de Pokémon en 3D?",
+        "opciones": {
+            "A": "Nintendo 64",
+            "B": "GameCube",
+            "C": "Game Boy Advance",
+            "D": "Nintendo DS"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "En *Pokémon GO*, ¿qué tipo de Pokémon aparece con más frecuencia cerca del agua?",
+        "opciones": {
+            "A": "Tipo Fuego",
+            "B": "Tipo Agua",
+            "C": "Tipo Eléctrico",
+            "D": "Tipo Planta"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "En *Pokémon Conquest*, ¿qué combina el juego para crear una experiencia única?",
+        "opciones": {
+            "A": "Pokémon y rompecabezas",
+            "B": "Pokémon y estrategia táctica",
+            "C": "Pokémon y carreras",
+            "D": "Pokémon y cocina"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Cuál es el Pokémon que se utiliza como *starter* en *Pokémon Colosseum*?",
+        "opciones": {
+            "A": "Eevee",
+            "B": "Espeon y Umbreon",
+            "C": "Pikachu",
+            "D": "Charmander y Bulbasaur"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "En *Pokémon Let's Go Pikachu y Eevee*, ¿qué se necesita para montar un Pokémon?",
+        "opciones": {
+            "A": "Una silla especial",
+            "B": "Tener al Pokémon en su forma evolucionada",
+            "C": "Ser amigo cercano del Pokémon",
+            "D": "El Pokémon debe ser grande"
+        },
+        "respuesta_correcta": "D"
+    },
+    {
+        "pregunta": "En *Pokémon Café ReMix*, ¿cuál es el papel de los Pokémon?",
+        "opciones": {
+            "A": "Batallar en duelos por equipos",
+            "B": "Preparar y servir comidas y bebidas",
+            "C": "Resolver acertijos para ganar puntos",
+            "D": "Recolectar ingredientes mágicos"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "¿Qué Pokémon aparece en la portada de *Pokémon XD: Gale of Darkness*?",
+        "opciones": {
+            "A": "Shadow Lugia",
+            "B": "Ho-Oh",
+            "C": "Groudon",
+            "D": "Kyogre"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "En *Pokémon Stadium 2*, ¿cuántos modos principales de juego están disponibles?",
+        "opciones": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "4"
+        },
+        "respuesta_correcta": "D"
+    },
+    {
+        "pregunta": "¿Qué función única ofrecía *Pokémon Box: Ruby & Sapphire*?",
+        "opciones": {
+            "A": "Almacenar Pokémon",
+            "B": "Crear equipos personalizados",
+            "C": "Jugar batallas online",
+            "D": "Intercambiar Pokémon directamente"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "En *Pokémon Battle Revolution*, ¿qué accesorio permitía transferir Pokémon desde la Nintendo DS?",
+        "opciones": {
+            "A": "Un cable de conexión",
+            "B": "Una tarjeta SD",
+            "C": "Conexión inalámbrica",
+            "D": "Un adaptador especial"
+        },
+        "respuesta_correcta": "C"
+    },
+    {
+        "pregunta": "¿Qué se debe hacer en *Pokémon Dash* para ganar una carrera?",
+        "opciones": {
+            "A": "Derrotar a los rivales",
+            "B": "Volver a una meta seleccionada lo más rápido posible",
+            "C": "Recolectar todas las medallas en un mapa",
+            "D": "Resolver rompecabezas durante la carrera"
+        },
+        "respuesta_correcta": "B"
+    },
+    {
+        "pregunta": "En los juegos principales, ¿qué característica fue introducida en *Pokémon X e Y*?",
+        "opciones": {
+            "A": "Megaevoluciones",
+            "B": "Batallas triples",
+            "C": "Movimientos Z",
+            "D": "Gigamax"
+        },
+        "respuesta_correcta": "A"
+    },
+    {
+        "pregunta": "¿Qué función tiene el *Pokémon Bank*?",
+        "opciones": {
+            "A": "Almacenar Pokémon en la nube",
+            "B": "Transferir Pokémon a otras consolas",
+            "C": "Permitir batallas online",
+            "D": "Generar objetos especiales"
+        },
+        "respuesta_correcta": "A"
+    }
+]
