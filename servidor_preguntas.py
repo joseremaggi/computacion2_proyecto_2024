@@ -120,9 +120,8 @@ async def obtener_respuestas(respuesta_correcta):
             respuestas[addr] = ("timeout", reader, writer)
 
     return respuestas
-
-
 # Función para anunciar al ganador
+
 async def anunciar_ganador():
     if puntos_jugadores:
         # Obtener la puntuación máxima
@@ -161,17 +160,12 @@ async def anunciar_ganador():
 
 
 # Función principal del servidor
-# Función principal del servidor
 async def main(file, num_preguntas):
     global preguntas
     preguntas = cargar_preguntas_desde_archivo(file)
 
     # Configuración del servidor para IPv4 e IPv6
-    server = await asyncio.start_server(
-        handle_client,
-        host='127.0.0.1',  # Escucha en IPv4 e IPv6
-        port=8888,  # Puerto para el servidor
-    )
+    server = await asyncio.start_server(handle_client, host=None, port=8888)
 
     # Mostrar las direcciones en las que está escuchando
     for sock in server.sockets:
@@ -182,13 +176,11 @@ async def main(file, num_preguntas):
     await asyncio.gather(server.serve_forever(), broadcast_pregunta(num_preguntas))
 
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Servidor de trivia Pokémon")
     parser.add_argument('file', type=str, help="Archivo JSON con las preguntas")
     parser.add_argument('num_preguntas', type=int, help="Número de preguntas para el juego")
     args = parser.parse_args()
-
     try:
         asyncio.run(main(args.file, args.num_preguntas))
     except KeyboardInterrupt:
