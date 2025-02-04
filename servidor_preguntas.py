@@ -189,7 +189,6 @@ async def main(file, num_preguntas):
 
     server = await asyncio.start_server(
         handle_client,
-        host='0.0.0.0',
         port=8888,
         family=socket.AF_UNSPEC,  # Acepta IPv4 e IPv6
         reuse_address=True,
