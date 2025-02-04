@@ -1,10 +1,6 @@
 services:
   servidor_preguntas:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "8888:8888"
+    # ... otras configuraciones
+    user: "1000:1000"  # Ejecuta el contenedor con tu usuario/grupo del host (Linux)
     volumes:
-      - ./log_partidas.txt:/log_partidas.txt
-    restart: unless-stopped
+      - ./logs:/app/logs}
