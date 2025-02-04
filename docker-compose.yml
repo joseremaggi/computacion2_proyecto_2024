@@ -1,6 +1,9 @@
 services:
   servidor_preguntas:
-    # ... otras configuraciones
-    user: "1000:1000"  # Ejecuta el contenedor con tu usuario/grupo del host (Linux)
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"  # Mapea 8888 (host) → 8888 (contenedor)
     volumes:
-      - ./logs:/app/logs}
+      - ./logs:/app/logs
