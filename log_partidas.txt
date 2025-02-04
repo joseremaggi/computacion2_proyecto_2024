@@ -1,0 +1,207 @@
+[2025-02-03 19:17:05] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 19:17:07] Jugador ('127.0.0.1', 58968) se ha conectado
+[2025-02-03 19:17:09] Jugador ('127.0.0.1', 58974) se ha conectado
+[2025-02-03 19:17:10] Enviada pregunta 1: ¿Cuál es el líder de gimnasio que usa Pokémon tipo roca en Kanto?
+[2025-02-03 19:17:16] Jugador ('127.0.0.1', 58968) respondió incorrectamente la pregunta 1
+[2025-02-03 19:17:16] Jugador ('127.0.0.1', 58974) respondió correctamente la pregunta 1
+[2025-02-03 19:17:26] GANADOR: ('127.0.0.1', 58974) con 1 puntos
+[2025-02-03 19:18:11] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 19:18:14] Jugador ('127.0.0.1', 59106) se ha conectado
+[2025-02-03 19:18:15] Jugador ('127.0.0.1', 59112) se ha conectado
+[2025-02-03 19:18:16] Enviada pregunta 1: ¿Qué Pokémon usa Misty con más frecuencia en la primera temporada?
+[2025-02-03 19:18:22] Jugador ('127.0.0.1', 59106) respondió incorrectamente la pregunta 1
+[2025-02-03 19:18:22] Jugador ('127.0.0.1', 59112) respondió correctamente la pregunta 1
+[2025-02-03 19:18:32] GANADOR: ('127.0.0.1', 59112) con 1 puntos
+[2025-02-03 19:19:18] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 19:19:21] Jugador ('127.0.0.1', 59256) se ha conectado
+[2025-02-03 19:19:23] Jugador ('127.0.0.1', 59262) se ha conectado
+[2025-02-03 19:19:23] Enviada pregunta 1: ¿Qué habilidad tiene Snorlax, el Pokémon que Ash captura en las Islas Naranja?
+[2025-02-03 19:19:31] Jugador ('127.0.0.1', 59256) respondió incorrectamente la pregunta 1
+[2025-02-03 19:19:31] Jugador ('127.0.0.1', 59262) respondió incorrectamente la pregunta 1
+[2025-02-03 19:20:11] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 19:20:14] Jugador ('127.0.0.1', 59370) se ha conectado
+[2025-02-03 19:20:16] Enviada pregunta 1: ¿Cuál es el ataque característico de Pikachu en el anime?
+[2025-02-03 19:20:17] Jugador ('127.0.0.1', 59377) se ha conectado
+[2025-02-03 19:20:36] Jugador ('127.0.0.1', 59370) no respondió la pregunta 1
+[2025-02-03 19:20:36] Jugador ('127.0.0.1', 59377) no respondió la pregunta 1
+[2025-02-03 19:20:52] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 19:20:54] Jugador ('127.0.0.1', 59456) se ha conectado
+[2025-02-03 19:20:55] Jugador ('127.0.0.1', 59462) se ha conectado
+[2025-02-03 19:20:57] Enviada pregunta 1: ¿Qué tipo de Pokémon es Charmander?
+[2025-02-03 19:21:03] Jugador ('127.0.0.1', 59456) respondió correctamente la pregunta 1
+[2025-02-03 19:21:03] Jugador ('127.0.0.1', 59462) respondió correctamente la pregunta 1
+[2025-02-03 19:21:13] EMPATE con 1 puntos
+[2025-02-03 21:36:31] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 21:36:34] Jugador ('127.0.0.1', 51852) se ha conectado
+[2025-02-03 21:36:36] Enviada pregunta 1: ¿Qué habilidad tiene Snorlax, el Pokémon que Ash captura en las Islas Naranja?
+[2025-02-03 21:36:41] Jugador ('127.0.0.1', 51856) se ha conectado
+[2025-02-03 21:36:49] Jugador ('127.0.0.1', 51852) respondió incorrectamente la pregunta 1
+[2025-02-03 21:36:49] Jugador ('127.0.0.1', 51856) respondió incorrectamente la pregunta 1
+[2025-02-03 21:36:59] No hay ganador
+[2025-02-03 21:41:38] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 21:41:40] Jugador ('127.0.0.1', 52431) se ha conectado
+[2025-02-03 21:41:42] Jugador ('127.0.0.1', 52434) se ha conectado
+[2025-02-03 21:41:43] Enviada pregunta 1: ¿Qué Pokémon evoluciona a Raichu?
+[2025-02-03 21:44:09] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 21:44:12] Jugador ('127.0.0.1', 52498) se ha conectado
+[2025-02-03 21:44:13] Jugador ('127.0.0.1', 52499) se ha conectado
+[2025-02-03 21:44:14] Enviada pregunta 1: ¿Qué objeto necesitas para evolucionar a Eevee en Vaporeon?
+[2025-02-03 21:44:15] Jugador ('127.0.0.1', 52502) se ha conectado
+[2025-02-03 21:44:21] Jugador ('127.0.0.1', 52502) respondió incorrectamente la pregunta 1
+[2025-02-03 21:44:31] No hay ganador
+[2025-02-03 21:44:39] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 21:44:41] Jugador ('127.0.0.1', 52507) se ha conectado
+[2025-02-03 21:44:42] Jugador ('127.0.0.1', 52510) se ha conectado
+[2025-02-03 21:44:44] Enviada pregunta 1: ¿Cuál es el Pokémon que Ash utiliza para apagar un incendio en la Isla Naranja?
+[2025-02-03 21:44:59] Enviada pregunta 1: ¿Qué Pokémoa
+n usa Misty para luchar contra Ash en el Gimnasio Celeste?
+[2025-02-03 21:45:14] Enviada pregunta 1: ¿Qué Pokémon tiene James del Equipo Rocket como compañero principal?
+[2025-02-03 21:45:33] Enviada pregunta 1: ¿Qué objeto usa Ash para salvar a Pikachu de los Spearow en el primer episodio?
+[2025-02-03 21:45:35] Jugador ('127.0.0.1', 52519) se ha conectado
+[2025-02-03 21:45:49] Jugador ('127.0.0.1', 52519) no respondió la pregunta 1
+[2025-02-03 21:45:59] No hay ganador
+[2025-02-03 21:45:59] Enviada pregunta 1: ¿Quién entrega a Ash su Pokédex en el primer episodio?
+[2025-02-03 21:46:04] Jugador ('127.0.0.1', 52521) se ha conectado
+[2025-02-03 21:46:04] Jugador ('127.0.0.1', 52520) se ha conectado
+[2025-02-03 21:46:04] Jugador ('127.0.0.1', 52522) se ha conectado
+[2025-02-03 21:46:09] No hay ganador
+[2025-02-03 21:51:11] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 21:51:11] Jugador ('127.0.0.1', 52717) se ha conectado
+[2025-02-03 21:51:11] Jugador ('127.0.0.1', 52716) se ha conectado
+[2025-02-03 21:51:11] Jugador ('127.0.0.1', 52718) se ha conectado
+[2025-02-03 21:51:16] Enviada pregunta 1: ¿Qué habilidad tiene Snorlax, el Pokémon que Ash captura en las Islas Naranja?
+[2025-02-03 21:51:20] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 21:51:21] Jugador ('127.0.0.1', 52725) se ha conectado
+[2025-02-03 21:51:23] Jugador ('127.0.0.1', 52728) se ha conectado
+[2025-02-03 21:51:25] Enviada pregunta 1: ¿Qué Pokémon usa Misty con más frecuencia en la primera temporada?
+[2025-02-03 21:51:39] No hay jugadores conectados al finalizar el juego
+[2025-02-03 21:51:39] Enviada pregunta 1: ¿Qué Pokémon del Equipo Rocket no utiliza Poké Ball?
+[2025-02-03 21:51:40] Jugador ('127.0.0.1', 52746) se ha conectado
+[2025-02-03 21:51:44] Jugador ('127.0.0.1', 52748) se ha conectado
+[2025-02-03 21:51:44] Jugador ('127.0.0.1', 52749) se ha conectado
+[2025-02-03 21:51:49] No hay ganador
+[2025-02-03 21:51:49] Jugador ('127.0.0.1', 52725) se desconectó abruptamente
+[2025-02-03 21:51:49] Jugador ('127.0.0.1', 52728) se desconectó abruptamente
+[2025-02-03 21:51:49] Enviada pregunta 1: ¿Qué Pokémon tiene James del Equipo Rocket como compañero principal?
+[2025-02-03 21:51:54] Jugador ('127.0.0.1', 52750) se ha conectado
+[2025-02-03 21:51:54] Jugador ('127.0.0.1', 52752) se ha conectado
+[2025-02-03 21:51:54] Jugador ('127.0.0.1', 52751) se ha conectado
+[2025-02-03 21:51:59] No hay ganador
+[2025-02-03 21:51:59] Jugador ('127.0.0.1', 52746) se desconectó abruptamente
+[2025-02-03 21:51:59] Jugador ('127.0.0.1', 52748) se desconectó abruptamente
+[2025-02-03 21:51:59] Jugador ('127.0.0.1', 52749) se desconectó abruptamente
+[2025-02-03 21:51:59] Enviada pregunta 1: ¿Qué Pokémon usa Misty para luchar contra Ash en el Gimnasio Celeste?
+[2025-02-03 21:52:04] Jugador ('127.0.0.1', 52757) se ha conectado
+[2025-02-03 21:52:04] Jugador ('127.0.0.1', 52756) se ha conectado
+[2025-02-03 21:52:04] Jugador ('127.0.0.1', 52758) se ha conectado
+[2025-02-03 21:52:09] No hay ganador
+[2025-02-03 21:52:09] Jugador ('127.0.0.1', 52750) se desconectó abruptamente
+[2025-02-03 21:52:09] Jugador ('127.0.0.1', 52752) se desconectó abruptamente
+[2025-02-03 21:52:09] Jugador ('127.0.0.1', 52751) se desconectó abruptamente
+[2025-02-03 21:52:09] Enviada pregunta 1: ¿Qué objeto mágico busca siempre el Equipo Rocket?
+[2025-02-03 21:52:14] Jugador ('127.0.0.1', 52769) se ha conectado
+[2025-02-03 21:52:14] Jugador ('127.0.0.1', 52770) se ha conectado
+[2025-02-03 21:52:14] Jugador ('127.0.0.1', 52771) se ha conectado
+[2025-02-03 21:52:19] No hay ganador
+[2025-02-03 21:52:19] Jugador ('127.0.0.1', 52757) se desconectó abruptamente
+[2025-02-03 21:52:19] Jugador ('127.0.0.1', 52756) se desconectó abruptamente
+[2025-02-03 21:52:19] Jugador ('127.0.0.1', 52758) se desconectó abruptamente
+[2025-02-03 21:52:19] Enviada pregunta 1: ¿Qué Pokémon regala Ash a una entrenadora durante sus viajes?
+[2025-02-03 21:52:24] Jugador ('127.0.0.1', 52776) se ha conectado
+[2025-02-03 21:52:24] Jugador ('127.0.0.1', 52777) se ha conectado
+[2025-02-03 21:52:24] Jugador ('127.0.0.1', 52778) se ha conectado
+[2025-02-03 21:52:30] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 21:52:33] Jugador ('127.0.0.1', 52782) se ha conectado
+[2025-02-03 21:52:33] Jugador ('127.0.0.1', 52781) se ha conectado
+[2025-02-03 21:52:35] Enviada pregunta 1: ¿Quién es el rival principal de Ash en la primera temporada?
+[2025-02-03 21:52:51] No hay jugadores conectados al finalizar el juego
+[2025-02-03 21:52:51] Enviada pregunta 1: ¿Qué objeto mágico busca siempre el Equipo Rocket?
+[2025-02-03 21:52:56] Jugador ('127.0.0.1', 52789) se ha conectado
+[2025-02-03 21:52:56] Jugador ('127.0.0.1', 52790) se ha conectado
+[2025-02-03 21:53:01] No hay ganador
+[2025-02-03 21:53:01] Jugador ('127.0.0.1', 52782) se desconectó abruptamente
+[2025-02-03 21:53:01] Jugador ('127.0.0.1', 52781) se desconectó abruptamente
+[2025-02-03 21:53:01] Enviada pregunta 1: ¿En qué ciudad puedes obtener la medalla de niebla en Kanto?
+[2025-02-03 21:53:06] Jugador ('127.0.0.1', 52794) se ha conectado
+[2025-02-03 21:53:06] Jugador ('127.0.0.1', 52795) se ha conectado
+[2025-02-03 21:53:20] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 21:53:21] Jugador ('127.0.0.1', 52803) se ha conectado
+[2025-02-03 21:53:23] Jugador ('127.0.0.1', 52806) se ha conectado
+[2025-02-03 21:53:25] Enviada pregunta 1: ¿Cómo evoluciona Pikachu?
+[2025-02-03 21:53:39] No hay jugadores conectados al finalizar el juego
+[2025-02-03 21:53:39] Enviada pregunta 1: ¿Cuál es el Pokémon más pequeño que aparece en la primera generación?
+[2025-02-03 21:53:44] Jugador ('127.0.0.1', 52815) se ha conectado
+[2025-02-03 21:53:44] Jugador ('127.0.0.1', 52816) se ha conectado
+[2025-02-03 21:53:49] No hay ganador
+[2025-02-03 21:53:49] Jugador ('127.0.0.1', 52803) se desconectó abruptamente
+[2025-02-03 21:53:49] Jugador ('127.0.0.1', 52806) se desconectó abruptamente
+[2025-02-03 21:53:49] Enviada pregunta 1: ¿Qué Pokémon aparece en el cielo al final del primer episodio?
+[2025-02-03 21:53:54] Jugador ('127.0.0.1', 52821) se ha conectado
+[2025-02-03 21:53:54] Jugador ('127.0.0.1', 52820) se ha conectado
+[2025-02-03 21:53:59] No hay ganador
+[2025-02-03 21:53:59] Jugador ('127.0.0.1', 52815) se desconectó abruptamente
+[2025-02-03 21:53:59] Jugador ('127.0.0.1', 52816) se desconectó abruptamente
+[2025-02-03 21:53:59] Enviada pregunta 1: ¿Qué Pokémon del Equipo Rocket no utiliza Poké Ball?
+[2025-02-03 21:54:04] Jugador ('127.0.0.1', 52836) se ha conectado
+[2025-02-03 21:54:04] Jugador ('127.0.0.1', 52835) se ha conectado
+[2025-02-03 21:54:09] No hay ganador
+[2025-02-03 21:54:09] Jugador ('127.0.0.1', 52821) se desconectó abruptamente
+[2025-02-03 21:54:09] Jugador ('127.0.0.1', 52820) se desconectó abruptamente
+[2025-02-03 21:54:09] Enviada pregunta 1: ¿Qué Pokémon de Ash derrota a Blaine en el Gimnasio de Isla Canela?
+[2025-02-03 21:54:14] Jugador ('127.0.0.1', 52838) se ha conectado
+[2025-02-03 21:54:14] Jugador ('127.0.0.1', 52839) se ha conectado
+[2025-02-03 21:54:19] No hay ganador
+[2025-02-03 21:54:19] Jugador ('127.0.0.1', 52836) se desconectó abruptamente
+[2025-02-03 21:54:19] Jugador ('127.0.0.1', 52835) se desconectó abruptamente
+[2025-02-03 21:54:19] Enviada pregunta 1: ¿Qué Pokémon utiliza Ash para derrotar al Onix de Brock?
+[2025-02-03 21:54:24] Jugador ('127.0.0.1', 52841) se ha conectado
+[2025-02-03 21:54:24] Jugador ('127.0.0.1', 52840) se ha conectado
+[2025-02-03 21:54:29] No hay ganador
+[2025-02-03 21:54:29] Jugador ('127.0.0.1', 52838) se desconectó abruptamente
+[2025-02-03 21:54:29] Jugador ('127.0.0.1', 52839) se desconectó abruptamente
+[2025-02-03 21:54:29] Enviada pregunta 1: ¿Cuál es el Pokémon que Ash intenta atrapar en el primer episodio del anime?
+[2025-02-03 21:55:36] Servidor iniciado en ('127.0.0.1', 8888)
+[2025-02-03 21:55:38] Jugador ('127.0.0.1', 52872) se ha conectado
+[2025-02-03 21:55:40] Jugador ('127.0.0.1', 52875) se ha conectado
+[2025-02-03 21:55:41] Enviada pregunta 1: ¿Quién es el rival principal de Ash en la primera temporada?
+[2025-02-03 21:55:55] No hay jugadores conectados al finalizar el juego
+[2025-02-03 21:55:55] Enviada pregunta 1: ¿Quién entrega a Ash su Pokédex en el primer episodio?
+[2025-02-03 21:56:12] No hay jugadores conectados al finalizar el juego
+[2025-02-03 21:56:12] Enviada pregunta 1: ¿Cuál es el Pokémon más pequeño que aparece en la primera generación?
+[2025-02-03 21:56:31] No hay jugadores conectados al finalizar el juego
+[2025-02-03 21:56:31] Enviada pregunta 1: ¿Qué Pokémon evoluciona a Raichu?
+[2025-02-03 21:56:56] No hay jugadores conectados al finalizar el juego
+[2025-02-03 21:56:56] Enviada pregunta 1: ¿Qué objeto usa Ash para salvar a Pikachu de los Spearow en el primer episodio?
+[2025-02-03 21:57:07] Jugador ('127.0.0.1', 52889) se ha conectado
+[2025-02-03 21:57:10] Jugador ('127.0.0.1', 52893) se ha conectado
+[2025-02-03 21:57:11] No hay ganador
+[2025-02-03 21:57:11] Enviada pregunta 1: ¿Qué Pokémon legendario aparece en la película *Pokémon: Mewtwo Contraataca*?
+[2025-02-03 22:03:24] Jugador ('127.0.0.1', 53068) se ha conectado
+[2025-02-03 22:03:26] Jugador ('127.0.0.1', 53074) se ha conectado
+[2025-02-03 22:03:27] Enviada pregunta 1: ¿Qué Pokémon legendario aparece en la película *Pokémon: Mewtwo Contraataca*?
+[2025-02-03 22:03:30] Jugador ('127.0.0.1', 53068) respondió incorrectamente
+[2025-02-03 22:03:30] Jugador ('127.0.0.1', 53074) respondió incorrectamente
+[2025-02-03 22:03:40] ¡Empate con 0 puntos entre: ('127.0.0.1', 53068), ('127.0.0.1', 53074)
+[2025-02-03 22:03:40] Enviada pregunta 1: ¿Qué tipo de Pokémon es Charmander?
+[2025-02-03 22:03:47] Jugador ('127.0.0.1', 53068) respondió correctamente
+[2025-02-03 22:03:47] Jugador ('127.0.0.1', 53074) respondió incorrectamente
+[2025-02-03 22:03:57] ¡Ganador: ('127.0.0.1', 53068) con 1 puntos!
+[2025-02-03 22:03:57] Enviada pregunta 1: ¿Qué objeto usa Ash para salvar a Pikachu de los Spearow en el primer episodio?
+[2025-02-03 22:04:05] Jugador ('127.0.0.1', 53068) respondió incorrectamente
+[2025-02-03 22:04:05] Jugador ('127.0.0.1', 53074) respondió correctamente
+[2025-02-03 22:04:15] ¡Ganador: ('127.0.0.1', 53074) con 1 puntos!
+[2025-02-03 22:04:15] Enviada pregunta 1: ¿Qué Pokémon regala Ash a una entrenadora durante sus viajes?
+[2025-02-03 22:04:19] Jugador ('127.0.0.1', 53068) respondió incorrectamente
+[2025-02-03 22:04:19] Jugador ('127.0.0.1', 53074) respondió incorrectamente
+[2025-02-03 22:04:54] Jugador ('127.0.0.1', 53100) se ha conectado
+[2025-02-03 22:04:56] Enviada pregunta 1: ¿Cómo evoluciona Pikachu?
+[2025-02-03 22:04:58] Jugador ('127.0.0.1', 53100) respondió correctamente
+[2025-02-03 22:05:01] Jugador ('127.0.0.1', 53104) se ha conectado
+[2025-02-03 22:05:08] ¡Ganador: ('127.0.0.1', 53100) con 1 puntos!
+[2025-02-03 22:05:08] Enviada pregunta 1: ¿Quién es el rival principal de Ash en la primera temporada?
+[2025-02-03 22:05:12] Jugador ('127.0.0.1', 53100) respondió correctamente
+[2025-02-03 22:05:12] Jugador ('127.0.0.1', 53104) respondió incorrectamente
+[2025-02-03 22:05:23] ¡Ganador: ('127.0.0.1', 53100) con 1 puntos!
+[2025-02-03 22:05:23] Enviada pregunta 1: ¿Qué Pokémon aparece en el cielo al final del primer episodio?
+[2025-02-03 22:05:26] Jugador ('127.0.0.1', 53100) respondió incorrectamente
+[2025-02-03 22:05:26] Jugador ('127.0.0.1', 53104) respondió incorrectamente

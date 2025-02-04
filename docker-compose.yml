@@ -1,0 +1,10 @@
+services:
+  servidor_preguntas:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./log_partidas.txt:/log_partidas.txt
+    restart: unless-stopped
