@@ -1,0 +1,33 @@
+[2025-02-03 23:53:13] Jugador ('127.0.0.1', 57236) se ha conectado
+[2025-02-03 23:53:16] Enviada pregunta 1: ¿Quién entrega a Ash su Pokédex en el primer episodio?
+[2025-02-03 23:53:17] Jugador ('127.0.0.1', 57236) respondió correctamente
+[2025-02-03 23:53:27] ¡Ganador: ('127.0.0.1', 57236) con 1 puntos!
+[2025-02-03 23:53:27] Enviada pregunta 1: ¿Qué tipo de Pokémon es Charmander?
+[2025-02-03 23:53:37] Jugador ('127.0.0.1', 57236) no respondió a tiempo
+[2025-02-03 23:53:47] ¡Ganador: ('127.0.0.1', 57236) con 0 puntos!
+[2025-02-03 23:53:47] Enviada pregunta 1: ¿En qué ciudad puedes obtener la medalla de niebla en Kanto?
+[2025-02-03 23:53:47] Jugador ('127.0.0.1', 57236) respondió incorrectamente
+[2025-02-04 00:18:58] Jugador ('127.0.0.1', 58412) se ha conectado
+[2025-02-04 00:19:02] Enviada pregunta 1: ¿En qué ciudad puedes obtener la medalla de niebla en Kanto?
+[2025-02-04 00:19:06] Jugador ('127.0.0.1', 58412) respondió correctamente
+[2025-02-04 00:19:16] ¡Ganador: ('127.0.0.1', 58412) con 1 puntos!
+[2025-02-04 00:19:16] Enviada pregunta 1: ¿Qué Pokémon evoluciona en Butterfree?
+[2025-02-04 00:19:17] Jugador ('127.0.0.1', 58412) respondió incorrectamente
+[2025-02-04 00:19:27] ¡Ganador: ('127.0.0.1', 58412) con 0 puntos!
+[2025-02-04 00:19:27] Enviada pregunta 1: ¿Quién entrega a Ash su Pokédex en el primer episodio?
+[2025-02-04 00:19:30] Jugador ('127.0.0.1', 58412) respondió incorrectamente
+[2025-02-04 00:19:40] ¡Ganador: ('127.0.0.1', 58412) con 0 puntos!
+[2025-02-04 00:19:40] Enviada pregunta 1: ¿Qué Pokémon captura Ash en la Isla Naranja que tiene habilidades artísticas?
+[2025-02-04 00:19:42] Jugador ('127.0.0.1', 58412) respondió incorrectamente
+[2025-02-04 00:29:17] Jugador ('127.0.0.1', 58510) se ha conectado
+[2025-02-04 00:29:20] Enviada pregunta 1: ¿Cómo evoluciona Pikachu?
+[2025-02-04 00:29:23] Jugador ('127.0.0.1', 58510) respondió correctamente
+[2025-02-04 00:29:33] ¡Ganador: ('127.0.0.1', 58510) con 1 puntos!
+[2025-02-04 00:29:33] Enviada pregunta 1: ¿Qué Pokémon usa Misty con más frecuencia en la primera temporada?
+[2025-02-04 00:29:35] Jugador ('127.0.0.1', 58510) respondió incorrectamente
+[2025-02-04 00:29:45] ¡Ganador: ('127.0.0.1', 58510) con 0 puntos!
+[2025-02-04 00:29:45] Enviada pregunta 1: ¿Qué Pokémon utiliza Ash para derrotar al Onix de Brock?
+[2025-02-04 00:29:45] Jugador ('127.0.0.1', 58510) respondió incorrectamente
+[2025-02-04 00:29:45] Jugador ('127.0.0.1', 58510) se desconectó durante el resultado
+[2025-02-04 00:29:55] No hay jugadores para anunciar ganador
+[2025-02-04 00:29:55] Jugador ('127.0.0.1', 58510) se ha desconectado

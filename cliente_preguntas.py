@@ -1,10 +1,9 @@
 import asyncio
-
-
 async def tcp_client():
     while True:  # Bucle para reconectar automáticamente
         try:
             reader, writer = await asyncio.open_connection('127.0.0.1', 8888)
+            #reader, writer = await asyncio.open_connection('::1', 8888)
             print("Conectado al servidor. Esperando preguntas...")
 
             try:

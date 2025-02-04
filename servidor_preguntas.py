@@ -3,6 +3,7 @@ import json
 import random
 import argparse
 import multiprocessing
+import socket  # Agregar al inicio del archivo
 import datetime  # <-- Importado para agregar timestamps en logs
 
 # Lista de clientes conectados
@@ -19,14 +20,15 @@ log_queue = multiprocessing.Queue()
 # ---------------- FUNCIONES PARA LOGS ----------------
 
 def escribir_log(log_queue):
-    """Proceso separado para escribir logs en un archivo con fecha y hora."""
-    with open("log_partidas.txt", "a", encoding="utf-8") as log_file:
+    """Escribe logs usando la ruta absoluta del contenedor."""
+    log_path = "logs/log_partidas.txt"  # Ruta absoluta
+    with open(log_path, "a", encoding="utf-8", buffering=1) as log_file:  # buffering=1 (line-buffered)
         while True:
             mensaje = log_queue.get()
-            if mensaje == "TERMINAR":  # Señal para detener el proceso
+            if mensaje == "TERMINAR":
                 break
             log_file.write(mensaje + "\n")
-
+            log_file.flush()  # Fuerza escritura inmediata (redundante con buffering=1)
 def loggear(mensaje):
     """Añade la fecha y hora al mensaje y lo envía a la cola de logs."""
     timestamp = datetime.datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")  # Formato: [YYYY-MM-DD HH:MM:SS]
@@ -185,8 +187,14 @@ async def main(file, num_preguntas):
     log_process = multiprocessing.Process(target=escribir_log, args=(log_queue,))
     log_process.start()
 
-    server = await asyncio.start_server(handle_client, '127.0.0.1', 8888)
-
+    server = await asyncio.start_server(
+        handle_client,
+        host='',
+        port=8888,
+        family=socket.AF_UNSPEC,  # Acepta IPv4 e IPv6
+        reuse_address=True,
+        reuse_port=False
+    )
     try:
         while True:
             if clients:
