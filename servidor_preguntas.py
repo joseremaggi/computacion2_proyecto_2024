@@ -3,8 +3,9 @@ import json
 import random
 import argparse
 import multiprocessing
-import socket  # Agregar al inicio del archivo
-import datetime  # <-- Importado para agregar timestamps en logs
+import socket
+import datetime
+import os  # Importar os para borrar el archivo
 
 round_in_progress = asyncio.Event()
 new_client_event = asyncio.Event()
@@ -49,6 +50,20 @@ def cargar_preguntas_desde_archivo(archivo):
 
 def obtener_pregunta_aleatoria():
     return random.choice(preguntas)
+
+
+async def flush_reader(reader):
+    """
+    Intenta leer y descartar cualquier dato pendiente en el buffer del reader.
+    Se usa un timeout muy corto para que, si no hay datos, se salga rápidamente.
+    """
+    while True:
+        try:
+            extra = await asyncio.wait_for(reader.read(100), timeout=0.01)
+            if not extra:
+                break
+        except asyncio.TimeoutError:
+            break
 
 
 async def broadcast_pregunta(num_preguntas):
@@ -105,8 +120,8 @@ async def broadcast_pregunta(num_preguntas):
                 loggear(f"Jugador {nombre_jugador} ({addr}) no respondió a tiempo")
 
             try:
-                mensaje = f"RESULTADO: {'Correcto' if status == 'correcta' else 'Incorrecto'}\n"
-                writer.write(mensaje.encode())
+                mensaje_resultado = f"RESULTADO: {'Correcto' if status == 'correcta' else 'Incorrecto'}\n"
+                writer.write(mensaje_resultado.encode())
                 await writer.drain()
             except Exception as e:
                 print(f"Error al enviar resultado a {nombre_jugador}: {e}")
@@ -173,7 +188,13 @@ async def obtener_respuestas(respuesta_correcta):
                 respuestas[addr] = ("correcta", reader, writer, nombre_jugador)
             else:
                 respuestas[addr] = ("incorrecta", reader, writer, nombre_jugador)
-        except (asyncio.TimeoutError, ConnectionResetError, ConnectionAbortedError):
+        except asyncio.TimeoutError:
+            # Limpia cualquier dato pendiente en el buffer del cliente para evitar inputs tardíos
+            await flush_reader(reader)
+            print(f"Jugador {addr} no respondió a tiempo")
+            loggear(f"Jugador {addr} no respondió a tiempo")
+            respuestas[addr] = ("incorrecta", reader, writer, nombre_jugador)
+        except (ConnectionResetError, ConnectionAbortedError):
             print(f"Jugador {addr} se desconectó mientras respondía")
             loggear(f"Jugador {addr} se desconectó mientras respondía")
             async with game_semaphore:
@@ -235,7 +256,6 @@ async def anunciar_ganador():
             loggear(f"Jugador {nombre_jugador} ({addr}) se desconectó durante el anuncio")
 
 
-
 # ---------------- FUNCIÓN PRINCIPAL ----------------
 
 async def main(file, num_preguntas):
@@ -282,6 +302,12 @@ async def main(file, num_preguntas):
             log_queue.put("TERMINAR")
             log_process.join()
             await server.wait_closed()
+            # Borrar el archivo de logs al terminar el servidor
+            try:
+                os.remove("logs/log_partidas.txt")
+                print("Archivo de logs eliminado.")
+            except Exception as e:
+                print("No se pudo eliminar el archivo de logs:", e)
 
 
 if __name__ == "__main__":
