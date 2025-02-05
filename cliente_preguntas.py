@@ -1,10 +1,24 @@
 import asyncio
-async def tcp_client():
-    while True:  # Bucle para reconectar automáticamente
+import json
+import argparse
+import aioconsole  # Importar aioconsole
+
+async def tcp_client(config_path, name):
+    # Cargar configuración desde el archivo
+    with open(config_path, 'r') as f:
+        config = json.load(f)
+
+    servidor = config['servidor']
+    puerto = config['puerto']
+
+    while True:
         try:
-            #reader, writer = await asyncio.open_connection('127.0.0.1', 8888)
-            reader, writer = await asyncio.open_connection('::1', 8888)
-            print("Conectado al servidor. Esperando preguntas...")
+            reader, writer = await asyncio.open_connection(servidor, puerto)
+            print(f"Conectado al servidor {servidor}:{puerto}. Esperando preguntas...")
+
+            # Enviar el nombre del jugador al servidor
+            writer.write(f"NAME:{name}".encode())
+            await writer.drain()
 
             try:
                 while True:
@@ -23,7 +37,6 @@ async def tcp_client():
                         print(mensaje[10:])
                     elif mensaje.endswith("FIN"):
                         print(mensaje[:-3])
-                        # No cerrar la conexión, esperar nuevas preguntas
                         print("Esperando nueva ronda...")
 
             except ConnectionResetError:
@@ -35,8 +48,13 @@ async def tcp_client():
                 await asyncio.sleep(5)
 
         except ConnectionRefusedError:
-            print("No se pudo conectar al servidor. Intentando reconectar en 5 segundos...")
+            print(f"No se pudo conectar a {servidor}:{puerto}. Intentando reconectar en 5 segundos...")
             await asyncio.sleep(5)
 
 if __name__ == "__main__":
-    asyncio.run(tcp_client())
+    parser = argparse.ArgumentParser(description='Cliente de trivia Pokémon')
+    parser.add_argument('--config', type=str, required=True, help='Ruta al archivo de configuración')
+    parser.add_argument('--name', type=str, required=True, help='Nombre del jugador')
+    args = parser.parse_args()
+
+    asyncio.run(tcp_client(args.config, args.name))

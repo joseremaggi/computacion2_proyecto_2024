@@ -1,9 +1,17 @@
 services:
   servidor_preguntas:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: .
     ports:
-      - "8888:8888"  # Mapea 8888 (host) → 8888 (contenedor)
+      - "0.0.0.0:8888:8888/tcp"  # Escucha IPv4 e IPv6 con dual-stack
     volumes:
       - ./logs:/app/logs
+    networks:
+      red_ipv6:
+
+networks:
+  red_ipv6:
+    enable_ipv6: true
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+        - subnet: "fd00:dead:beef::/64"
