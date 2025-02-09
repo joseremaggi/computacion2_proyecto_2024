@@ -2,11 +2,27 @@ services:
   servidor_preguntas:
     build: .
     ports:
-      - "0.0.0.0:8888:8888/tcp"  # Escucha IPv4 e IPv6 con dual-stack
+      - "[::]:8888:8888/tcp"  # Escucha IPv4 e IPv6 con dual-stack
     volumes:
       - ./logs:/app/logs
     networks:
       red_ipv6:
+        ipv6_address: "fd00:dead:beef::2"
+  cliente_preguntas:
+    build: ./cliente
+    networks:
+      - red_ipv6
+    depends_on:
+      - servidor_preguntas
+    stdin_open: true   # Habilita entrada estándar (interactivo)
+    tty: true         # Asigna una terminal
+    environment:
+      - CONFIG_PATH=config.json  # Ruta por defecto
+      - JUGADOR_NOMBRE=jugador1  # Nombre por defecto
+    command: >
+      sh -c "python cliente_preguntas.py
+      --config $$CONFIG_PATH
+      --name $$JUGADOR_NOMBRE"
 
 networks:
   red_ipv6:

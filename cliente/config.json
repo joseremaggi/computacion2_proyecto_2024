@@ -1,0 +1,4 @@
+{
+  "servidor": "fd00:dead:beef::2",
+  "puerto": 8888
+}
