@@ -1,50 +1,114 @@
-a[2025-02-04 03:55:27] Jugador ('172.18.0.1', 59400) se ha conectado
-[2025-02-04 03:55:28] Jugador ('172.18.0.1', 59402) se ha conectado
-[2025-02-04 03:55:29] Enviada pregunta 1: ¿Qué Pokémon usa Brock como su principal compañero?
-[2025-02-04 03:55:34] Jugador ('172.18.0.1', 59400) respondió incorrectamente
-[2025-02-04 03:55:34] Jugador ('172.18.0.1', 59402) respondió correctamente
-[2025-02-04 03:55:44] Enviada pregunta 2: ¿Qué tipo de Pokémon es Charmander?
-[2025-02-04 03:55:50] Jugador ('172.18.0.1', 59400) respondió incorrectamente
-[2025-02-04 03:55:50] Jugador ('172.18.0.1', 59402) respondió correctamente
-[2025-02-04 03:56:00] ¡Ganador: ('172.18.0.1', 59402) con 2 puntos!
-[2025-02-04 03:56:00] Enviada pregunta 1: ¿Cuál es el nombre del Profesor que entrega los Pokémon iniciales en Kanto?
-[2025-02-04 03:56:13] Jugador ('172.18.0.1', 59400) no respondió a tiempo
-[2025-02-04 03:56:13] Jugador ('172.18.0.1', 59402) respondió incorrectamente
-[2025-02-04 03:56:23] Enviada pregunta 2: ¿Qué Pokémon usa Misty para luchar contra Ash en el Gimnasio Celeste?
-[2025-02-04 03:56:23] Jugador ('172.18.0.1', 59400) respondió incorrectamente
-[2025-02-04 03:56:23] Jugador ('172.18.0.1', 59402) respondió incorrectamente
-[2025-02-04 03:56:33] ¡Empate con 0 puntos entre: ('172.18.0.1', 59400), ('172.18.0.1', 59402)
-[2025-02-04 03:56:33] Enviada pregunta 1: ¿Cuál de estas ciudades pertenece a la región de Kanto?
-[2025-02-04 03:56:33] Jugador ('172.18.0.1', 59400) respondió incorrectamente
-[2025-02-04 03:56:33] Jugador ('172.18.0.1', 59400) se desconectó durante el resultado
-[2025-02-04 03:56:33] Jugador ('172.18.0.1', 59402) respondió incorrectamente
-[2025-02-04 03:56:43] Jugador ('172.18.0.1', 59402) se desconectó durante la pregunta
-[2025-02-04 03:56:43] Enviada pregunta 2: ¿Cuál de estas ciudades pertenece a la región de Kanto?
-[2025-02-04 03:56:53] No hay jugadores para anunciar ganador
-[2025-02-04 03:56:54] Jugador ('172.18.0.1', 59402) se ha desconectado
-[2025-02-04 03:56:54] Jugador ('172.18.0.1', 59400) se ha desconectado
-[2025-02-04 00:59:29] Jugador ('172.18.0.1', 58696) se ha conectado
-[2025-02-04 00:59:31] Enviada pregunta 1: ¿Qué tipo de Pokémon es Charmander?
-[2025-02-04 00:59:32] Jugador ('172.18.0.1', 58696) respondió correctamente
-[2025-02-04 00:59:42] Enviada pregunta 2: ¿Cuál es el Pokémon más pequeño que aparece en la primera generación?[2025-02-04 00:59:46] Jugador ('172.18.0.1', 61132) se ha conectado
-[2025-02-04 00:59:58] Jugador ('172.18.0.1', 58696) respondió incorrectamente
-[2025-02-04 00:59:58] Jugador ('172.18.0.1', 61132) no respondió a tiempo
-[2025-02-04 01:00:08] ¡Ganador: ('172.18.0.1', 58696) con 1 puntos!
-[2025-02-04 01:00:08] Enviada pregunta 1: ¿Qué Pokémon regala Ash a una entrenadora durante sus viajes?
-[2025-02-04 01:00:28] Jugador ('172.18.0.1', 58696) no respondió a tiempo
-[2025-02-04 01:00:28] Jugador ('172.18.0.1', 61132) no respondió a tiempo
-[2025-02-04 01:00:38] Enviada pregunta 2: ¿Cuál es el nombre del Profesor que entrega los Pokémon iniciales en Kanto?
-[2025-02-04 01:00:42] Jugador ('172.18.0.1', 58696) respondió incorrectamente
-[2025-02-04 01:00:42] Jugador ('172.18.0.1', 61132) respondió correctamente
-[2025-02-04 01:00:52] ¡Ganador: ('172.18.0.1', 61132) con 1 puntos!
-[2025-02-04 01:00:52] Enviada pregunta 1: ¿Qué Pokémon conoce Ash en el Festival de la Isla Shamouti?
-[2025-02-04 01:01:05] Jugador ('172.18.0.1', 58696) no respondió a tiempo
-[2025-02-04 01:01:05] Jugador ('172.18.0.1', 61132) respondió incorrectamente
-[2025-02-04 01:01:15] Enviada pregunta 2: ¿Qué Pokémon captura Ash en el Bosque Verde?
-[2025-02-04 01:01:15] Jugador ('172.18.0.1', 58696) respondió incorrectamente
-[2025-02-04 01:01:15] Jugador ('172.18.0.1', 61132) respondió incorrectamente
-[2025-02-04 01:01:25] ¡Empate con 0 puntos entre: ('172.18.0.1', 58696), ('172.18.0.1', 61132)
-[2025-02-04 01:01:25] Jugador ('172.18.0.1', 61132) se desconectó durante la pregunta
-[2025-02-04 01:01:25] Enviada pregunta 1: ¿Quién es el rival principal de Ash en la primera temporada?
-[2025-02-04 01:01:25] Jugador ('172.18.0.1', 58696) respondió incorrectamente
-[2025-02-04 01:01:25] Jugador ('172.18.0.1', 58696) se desconectó durante el resultado
+[2025-02-08 21:35:27] Jugador Pikachu (('::ffff:172.20.0.3', 38512, 0, 0)) se ha conectado
+[2025-02-08 21:35:37] Enviada pregunta 1: ¿Qué Pokémon regala Ash a una entrenadora durante sus viajes?
+[2025-02-08 21:35:39] Jugador Pikachu (('::ffff:172.20.0.3', 38512, 0, 0)) respondió incorrectamente
+[2025-02-08 21:35:49] Jugador Pikachu (('::ffff:172.20.0.3', 38512, 0, 0)) se desconectó durante la pregunta
+[2025-02-08 21:35:49] Enviada pregunta 2: ¿Cuál es el líder de gimnasio que usa Pokémon tipo roca en Kanto?
+[2025-02-08 21:35:59] No hay jugadores para anunciar ganador
+[2025-02-08 21:36:56] Jugador Raichu (('::ffff:172.20.0.3', 55096, 0, 0)) se ha conectado
+[2025-02-08 21:37:01] Jugador Pikachu (('fd00:dead:beef::4', 32774, 0, 0)) se ha conectado
+[2025-02-08 21:37:06] Enviada pregunta 1: ¿Qué Pokémon usa Misty para luchar contra Ash en el Gimnasio Celeste?
+[2025-02-08 21:37:11] Jugador Raichu (('::ffff:172.20.0.3', 55096, 0, 0)) respondió incorrectamente
+[2025-02-08 21:37:11] Jugador Pikachu (('fd00:dead:beef::4', 32774, 0, 0)) respondió correctamente
+[2025-02-08 21:37:21] Enviada pregunta 2: ¿Qué objeto usa Ash para salvar a Pikachu de los Spearow en el primer episodio?
+[2025-02-08 21:37:31] Jugador ('::ffff:172.20.0.3', 55096, 0, 0) no respondió a tiempo
+[2025-02-08 21:37:41] Jugador ('fd00:dead:beef::4', 32774, 0, 0) no respondió a tiempo
+[2025-02-08 21:37:41] Jugador Raichu (('::ffff:172.20.0.3', 55096, 0, 0)) respondió incorrectamente
+[2025-02-08 21:37:41] Jugador Pikachu (('fd00:dead:beef::4', 32774, 0, 0)) respondió incorrectamente
+[2025-02-08 21:37:51] ¡Ganador: Pikachu (('fd00:dead:beef::4', 32774, 0, 0)) con 1 puntos!
+[2025-02-08 21:38:01] Enviada pregunta 1: ¿Cuál de estos movimientos no puede aprender Charizard?
+[2025-02-08 21:38:07] Jugador Raichu (('::ffff:172.20.0.3', 55096, 0, 0)) respondió incorrectamente
+[2025-02-08 21:38:07] Jugador Pikachu (('fd00:dead:beef::4', 32774, 0, 0)) respondió correctamente
+[2025-02-08 21:38:17] Enviada pregunta 2: ¿Qué Pokémon conoce Ash en el Festival de la Isla Shamouti?
+[2025-02-08 21:38:30] Jugador ('fd00:dead:beef::4', 32774, 0, 0) no respondió a tiempo
+[2025-02-08 21:38:30] Jugador Raichu (('::ffff:172.20.0.3', 55096, 0, 0)) respondió incorrectamente
+[2025-02-08 21:38:30] Jugador Pikachu (('fd00:dead:beef::4', 32774, 0, 0)) respondió incorrectamente
+[2025-02-08 21:38:37] Jugador Pikachu (('fd00:dead:beef::4', 46016, 0, 0)) se ha conectado
+[2025-02-08 21:38:47] Enviada pregunta 1: ¿Qué tipo de Pokémon usa Misty en su gimnasio?
+[2025-02-08 21:38:57] Jugador ('fd00:dead:beef::4', 46016, 0, 0) no respondió a tiempo
+[2025-02-08 21:38:57] Jugador Pikachu (('fd00:dead:beef::4', 46016, 0, 0)) respondió incorrectamente
+[2025-02-09 19:51:03] Jugador Pikachu (('fd00:dead:beef::3', 49096, 0, 0)) se ha conectado
+[2025-02-09 19:51:11] Jugador Raichu (('::ffff:172.20.0.4', 53762, 0, 0)) se ha conectado
+[2025-02-09 19:51:13] Enviada pregunta 1: ¿Qué objeto usa Ash para salvar a Pikachu de los Spearow en el primer episodio?
+[2025-02-09 19:51:23] Jugador ('fd00:dead:beef::3', 49096, 0, 0) no respondió a tiempo
+[2025-02-09 19:51:23] Jugador Pikachu (('fd00:dead:beef::3', 49096, 0, 0)) respondió incorrectamente
+[2025-02-09 19:51:23] Jugador Raichu (('::ffff:172.20.0.4', 53762, 0, 0)) respondió incorrectamente
+[2025-02-09 19:51:33] Enviada pregunta 2: ¿Qué busca siempre el Equipo Rocket?
+[2025-02-09 19:51:37] Jugador Pikachu (('fd00:dead:beef::3', 49096, 0, 0)) respondió incorrectamente
+[2025-02-09 19:51:37] Jugador Raichu (('::ffff:172.20.0.4', 53762, 0, 0)) respondió incorrectamente
+[2025-02-09 19:51:47] ¡Nadie ganó! Todos los jugadores tienen 0 puntos.
+[2025-02-09 19:51:57] Enviada pregunta 1: ¿Qué Pokémon captura Ash en la Isla Naranja ?
+[2025-02-09 19:52:03] Jugador Pikachu (('fd00:dead:beef::3', 49096, 0, 0)) respondió incorrectamente
+[2025-02-09 19:52:03] Jugador Raichu (('::ffff:172.20.0.4', 53762, 0, 0)) respondió incorrectamente
+[2025-02-09 19:52:13] Jugador Pikachu (('fd00:dead:beef::3', 49096, 0, 0)) se desconectó durante la pregunta
+[2025-02-09 19:52:13] Enviada pregunta 2: ¿Qué objeto usa Ash para salvar a Pikachu de los Spearow en el primer episodio?
+[2025-02-09 19:52:13] Jugador Raichu (('::ffff:172.20.0.4', 53762, 0, 0)) respondió incorrectamente
+[2025-02-09 19:52:23] ¡Nadie ganó! Todos los jugadores tienen 0 puntos.
+[2025-02-09 19:52:33] Enviada pregunta 1: ¿Cómo se llama el objeto que permite a los entrenadores capturar Pokémon?
+[2025-02-09 19:52:33] Jugador Raichu (('::ffff:172.20.0.4', 53762, 0, 0)) respondió incorrectamente
+[2025-02-09 19:52:58] Jugador Pikachu (('fd00:dead:beef::3', 56566, 0, 0)) se ha conectado
+[2025-02-09 19:53:02] Jugador Raichu (('::ffff:172.20.0.4', 33050, 0, 0)) se ha conectado
+[2025-02-09 19:53:08] Enviada pregunta 1: ¿Qué objeto necesitas para evolucionar a Eevee en Vaporeon?
+[2025-02-09 19:53:18] Jugador Pikachu ('fd00:dead:beef::3', 56566, 0, 0) no respondió a tiempo
+[2025-02-09 19:53:28] Jugador Raichu ('::ffff:172.20.0.4', 33050, 0, 0) no respondió a tiempo
+[2025-02-09 19:53:28] Jugador Pikachu (('fd00:dead:beef::3', 56566, 0, 0)) respondió incorrectamente
+[2025-02-09 19:53:28] Jugador Raichu (('::ffff:172.20.0.4', 33050, 0, 0)) respondió incorrectamente
+[2025-02-09 19:53:38] Enviada pregunta 2: ¿Cuál de estos movimientos no puede aprender Charizard?
+[2025-02-09 19:53:43] Jugador Pikachu (('fd00:dead:beef::3', 56566, 0, 0)) respondió incorrectamente
+[2025-02-09 19:53:43] Jugador Raichu (('::ffff:172.20.0.4', 33050, 0, 0)) respondió correctamente
+[2025-02-09 19:53:53] ¡Ganador: Raichu (('::ffff:172.20.0.4', 33050, 0, 0)) con 1 puntos!
+[2025-02-09 19:54:03] Enviada pregunta 1: ¿Qué Pokémon acompaña a Tracey durante la segunda temporada?
+[2025-02-09 19:54:09] Jugador Pikachu (('fd00:dead:beef::3', 56566, 0, 0)) respondió incorrectamente
+[2025-02-09 19:54:09] Jugador Raichu (('::ffff:172.20.0.4', 33050, 0, 0)) respondió incorrectamente
+[2025-02-09 19:54:19] Jugador Raichu (('::ffff:172.20.0.4', 33050, 0, 0)) se desconectó durante la pregunta
+[2025-02-09 19:54:19] Enviada pregunta 2: ¿Cuál de estas ciudades pertenece a la región de Kanto?
+[2025-02-09 19:54:19] Jugador Pikachu (('fd00:dead:beef::3', 56566, 0, 0)) respondió incorrectamente
+[2025-02-09 19:54:29] ¡Nadie ganó! Todos los jugadores tienen 0 puntos.
+[2025-02-09 19:54:39] Enviada pregunta 1: ¿Qué Pokémon captura Ash en el Bosque Verde?
+[2025-02-09 19:54:39] Jugador Pikachu (('fd00:dead:beef::3', 56566, 0, 0)) respondió incorrectamente
+[2025-02-09 19:54:49] Enviada pregunta 2: ¿Qué Pokémon usa Brock como su principal compañero?
+[2025-02-09 19:54:49] Jugador Pikachu (('fd00:dead:beef::3', 56566, 0, 0)) respondió incorrectamente
+[2025-02-09 19:54:59] ¡Nadie ganó! Todos los jugadores tienen 0 puntos.
+[2025-02-09 19:55:09] Enviada pregunta 1: ¿Qué busca siempre el Equipo Rocket?
+[2025-02-09 19:55:09] Jugador Pikachu (('fd00:dead:beef::3', 56566, 0, 0)) respondió incorrectamente
+[2025-02-09 19:55:11] Jugador Pikachu (('fd00:dead:beef::3', 45098, 0, 0)) se ha conectado
+[2025-02-09 19:55:15] Jugador Raichu (('::ffff:172.20.0.4', 43292, 0, 0)) se ha conectado
+[2025-02-09 19:55:19] Enviada pregunta 2: ¿Cómo se llama el objeto que permite a los entrenadores capturar Pokémon?
+[2025-02-09 19:55:29] Jugador Pikachu ('fd00:dead:beef::3', 45098, 0, 0) no respondió a tiempo
+[2025-02-09 19:55:29] Jugador Pikachu (('fd00:dead:beef::3', 56566, 0, 0)) respondió incorrectamente
+[2025-02-09 19:55:29] Jugador Pikachu (('fd00:dead:beef::3', 45098, 0, 0)) respondió incorrectamente
+[2025-02-09 19:55:29] Jugador Raichu (('::ffff:172.20.0.4', 43292, 0, 0)) respondió incorrectamente
+[2025-02-09 19:55:39] ¡Nadie ganó! Todos los jugadores tienen 0 puntos.
+[2025-02-09 19:55:49] Enviada pregunta 1: ¿Cómo evoluciona Pikachu?
+[2025-02-09 19:55:59] Jugador Pikachu ('fd00:dead:beef::3', 45098, 0, 0) no respondió a tiempo
+[2025-02-09 19:55:59] Jugador Pikachu (('fd00:dead:beef::3', 56566, 0, 0)) respondió incorrectamente
+[2025-02-09 19:55:59] Jugador Pikachu (('fd00:dead:beef::3', 56566, 0, 0)) se desconectó durante el resultado
+[2025-02-09 19:55:59] Jugador Pikachu (('fd00:dead:beef::3', 45098, 0, 0)) respondió incorrectamente
+[2025-02-09 19:55:59] Jugador Raichu (('::ffff:172.20.0.4', 43292, 0, 0)) respondió incorrectamente
+[2025-02-09 19:56:09] Enviada pregunta 2: ¿Qué Pokémon regala Ash a una entrenadora durante sus viajes?
+[2025-02-09 19:56:13] Jugador Pikachu (('fd00:dead:beef::3', 45098, 0, 0)) respondió incorrectamente
+[2025-02-09 19:56:13] Jugador Raichu (('::ffff:172.20.0.4', 43292, 0, 0)) respondió incorrectamente
+[2025-02-09 19:56:19] Jugador Raichu (('::ffff:172.20.0.3', 58536, 0, 0)) se ha conectado
+[2025-02-09 19:56:23] ¡Nadie ganó! Todos los jugadores tienen 0 puntos.
+[2025-02-09 19:56:23] Jugador Pikachu (('fd00:dead:beef::3', 45098, 0, 0)) se desconectó durante el anuncio
+[2025-02-09 19:56:25] Jugador Pikachu (('fd00:dead:beef::4', 47300, 0, 0)) se ha conectado
+[2025-02-09 19:56:33] Enviada pregunta 1: ¿Qué Pokémon evoluciona en Butterfree?
+[2025-02-09 19:56:44] Jugador Pikachu ('fd00:dead:beef::4', 47300, 0, 0) no respondió a tiempo
+[2025-02-09 19:56:44] Jugador Raichu (('::ffff:172.20.0.4', 43292, 0, 0)) respondió incorrectamente
+[2025-02-09 19:56:44] Jugador Raichu (('::ffff:172.20.0.3', 58536, 0, 0)) respondió incorrectamente
+[2025-02-09 19:56:44] Jugador Pikachu (('fd00:dead:beef::4', 47300, 0, 0)) respondió incorrectamente
+[2025-02-09 19:56:54] Enviada pregunta 2: ¿Qué Pokémon conoce Ash en el Festival de la Isla Shamouti?
+[2025-02-09 19:58:08] Jugador Pikachu (('fd00:dead:beef::3', 58510, 0, 0)) se ha conectado
+[2025-02-09 19:58:18] Enviada pregunta 1: ¿Cómo se llama la competencia en la que Ash participa en las islas Naranja?
+[2025-02-09 19:58:28] Jugador Pikachu ('fd00:dead:beef::3', 58510, 0, 0) no respondió a tiempo
+[2025-02-09 19:58:28] Jugador Pikachu (('fd00:dead:beef::3', 58510, 0, 0)) respondió incorrectamente
+[2025-02-09 19:59:19] Jugador jose (('::1', 56626, 0, 0)) se ha conectado
+[2025-02-09 19:59:29] Enviada pregunta 1: ¿Cómo evoluciona Pikachu?
+[2025-02-09 20:04:48] Jugador Pikachu (('fd00:dead:beef::3', 37134, 0, 0)) se ha conectado
+[2025-02-09 20:04:58] Enviada pregunta 1: ¿Quién es el rival principal de Ash en la primera temporada?
+[2025-02-09 20:05:08] Jugador Pikachu ('fd00:dead:beef::3', 37134, 0, 0) no respondió a tiempo
+[2025-02-09 20:05:08] Jugador Pikachu (('fd00:dead:beef::3', 37134, 0, 0)) respondió incorrectamente
+[2025-02-09 20:05:18] Enviada pregunta 2: ¿Qué Pokémon evoluciona durante un torneo en el anime?
+[2025-02-09 20:07:23] Jugador Pikachu (('fd00:dead:beef::3', 52448, 0, 0)) se ha conectado
+[2025-02-09 20:07:33] Enviada pregunta 1: ¿Qué Pokémon regala Ash a una entrenadora durante sus viajes?
+[2025-02-09 20:07:43] Jugador Pikachu ('fd00:dead:beef::3', 52448, 0, 0) no respondió a tiempo
+[2025-02-09 20:07:43] Jugador Pikachu (('fd00:dead:beef::3', 52448, 0, 0)) respondió incorrectamente

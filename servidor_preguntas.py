@@ -26,13 +26,22 @@ log_queue = multiprocessing.Queue()
 
 def escribir_log(log_queue):
     log_path = "logs/log_partidas.txt"
+    # Asegurarse de que el directorio exista
+    os.makedirs(os.path.dirname(log_path), exist_ok=True)
     with open(log_path, "a", encoding="utf-8", buffering=1) as log_file:
         while True:
-            mensaje = log_queue.get()
-            if mensaje == "TERMINAR":
+            try:
+                mensaje = log_queue.get(timeout=1)
+                if mensaje == "TERMINAR":
+                    break
+                log_file.write(mensaje + "\n")
+                log_file.flush()
+            except multiprocessing.queues.Empty:
+                continue
+            except KeyboardInterrupt:
                 break
-            log_file.write(mensaje + "\n")
-            log_file.flush()
+            except Exception:
+                break
 
 
 def loggear(mensaje):
@@ -191,12 +200,12 @@ async def obtener_respuestas(respuesta_correcta):
         except asyncio.TimeoutError:
             # Limpia cualquier dato pendiente en el buffer del cliente para evitar inputs tardíos
             await flush_reader(reader)
-            print(f"Jugador {addr} no respondió a tiempo")
-            loggear(f"Jugador {addr} no respondió a tiempo")
+            print(f"Jugador {nombre_jugador} {addr} no respondió a tiempo")
+            loggear(f"Jugador {nombre_jugador} {addr} no respondió a tiempo")
             respuestas[addr] = ("incorrecta", reader, writer, nombre_jugador)
         except (ConnectionResetError, ConnectionAbortedError):
-            print(f"Jugador {addr} se desconectó mientras respondía")
-            loggear(f"Jugador {addr} se desconectó mientras respondía")
+            print(f"Jugador {nombre_jugador} {addr} se desconectó mientras respondía")
+            loggear(f"Jugador {nombre_jugador} {addr} se desconectó mientras respondía")
             async with game_semaphore:
                 for c in clients.copy():
                     r, w, n = c
@@ -251,63 +260,72 @@ async def anunciar_ganador():
                     if w == writer:
                         clients.remove(c)
                         break
-                if addr in puntos_jugadores:
-                    del puntos_jugadores[addr]
             loggear(f"Jugador {nombre_jugador} ({addr}) se desconectó durante el anuncio")
 
 
 # ---------------- FUNCIÓN PRINCIPAL ----------------
 
-async def main(file, num_preguntas):
-    global preguntas, clients, puntos_jugadores, preguntas_enviadas
-    preguntas = cargar_preguntas_desde_archivo(file)
-    print("Preguntas cargadas:", preguntas)  # Debug
+log_process = None  # Definir log_process en un ámbito global
 
-    log_process = multiprocessing.Process(target=escribir_log, args=(log_queue,))
+async def main(file, num_preguntas):
+    global preguntas, clients, puntos_jugadores, preguntas_enviadas, log_process
+
+    preguntas = cargar_preguntas_desde_archivo(file)
+
+    # Iniciar el proceso para escribir logs
+    log_process = multiprocessing.Process(
+        target=escribir_log,
+        args=(log_queue,),
+        daemon=True  # Marcar como daemon para que termine con el proceso principal
+    )
     log_process.start()
 
-    server = await asyncio.start_server(handle_client, host="::", port=8888)
+    # Crear un socket dual-stack (IPv6 e IPv4)
+    sock = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)
+    # Desactivar IPV6_V6ONLY para aceptar conexiones IPv4 y IPv6
+    sock.setsockopt(socket.IPPROTO_IPV6, socket.IPV6_V6ONLY, 0)
+    # Enlazar a todas las interfaces en el puerto 8888 usando '::'
+    sock.bind(('::', 8888))
+    sock.listen(100)
+    sock.setblocking(False)
 
+    # Pasar el socket creado manualmente a asyncio.start_server
+    server = await asyncio.start_server(handle_client, sock=sock)
+
+    # Mantener el servidor activo durante todo el bucle de juego
     async with server:
         await server.start_serving()
-        try:
-            while True:
-                while not clients:
+        while True:
+            # Esperar a que se conecte al menos un cliente
+            while not clients:
+                try:
+                    await asyncio.wait_for(new_client_event.wait(), timeout=5.0)
+                    new_client_event.clear()
+                except asyncio.TimeoutError:
+                    pass
+
+            # Enviar mensaje de espera a los clientes
+            for _ in range(5):
+                mensaje_espera = "Esperando nueva ronda...\n"
+                for _, writer, nombre_jugador in clients.copy():
                     try:
-                        await asyncio.wait_for(new_client_event.wait(), timeout=5.0)
-                        new_client_event.clear()
-                    except asyncio.TimeoutError:
-                        pass
+                        writer.write(mensaje_espera.encode())
+                        await writer.drain()
+                    except (ConnectionResetError, ConnectionAbortedError):
+                        async with game_semaphore:
+                            for c in clients.copy():
+                                r, w, n = c
+                                if w == writer:
+                                    clients.remove(c)
+                                    break
+                await asyncio.sleep(2)
 
-                for _ in range(5):
-                    mensaje_espera = "Esperando nueva ronda...\n"
-                    for _, writer, nombre_jugador in clients.copy():
-                        try:
-                            writer.write(mensaje_espera.encode())
-                            await writer.drain()
-                        except (ConnectionResetError, ConnectionAbortedError):
-                            async with game_semaphore:
-                                for c in clients.copy():
-                                    r, w, n = c
-                                    if w == writer:
-                                        clients.remove(c)
-                                        break
-                    await asyncio.sleep(2)
+            preguntas_enviadas = 0
+            puntos_jugadores = {writer.get_extra_info('peername'): 0 for _, writer, _ in clients}
+            await broadcast_pregunta(num_preguntas)
 
-                # Reiniciar estado del juego para nueva ronda
-                preguntas_enviadas = 0
-                puntos_jugadores = {writer.get_extra_info('peername'): 0 for _, writer, _ in clients}
-                await broadcast_pregunta(num_preguntas)
-        finally:
-            log_queue.put("TERMINAR")
-            log_process.join()
-            await server.wait_closed()
-            # Borrar el archivo de logs al terminar el servidor
-            try:
-                os.remove("logs/log_partidas.txt")
-                print("Archivo de logs eliminado.")
-            except Exception as e:
-                print("No se pudo eliminar el archivo de logs:", e)
+        # Al salir del bucle, se cerrarán las conexiones automáticamente al salir del "async with"
+        await server.wait_closed()
 
 
 if __name__ == "__main__":
@@ -319,5 +337,11 @@ if __name__ == "__main__":
     try:
         asyncio.run(main(args.file, args.num_preguntas))
     except KeyboardInterrupt:
-        print("Servidor detenido")
-        loggear("Servidor detenido por interrupción manual")
+        print("\nServidor detenido por el usuario")
+        # Asegurar que el proceso de logging termine
+        if log_queue:
+            log_queue.put("TERMINAR")
+        if log_process:
+            log_process.join(timeout=1)
+            if log_process.is_alive():
+                log_process.terminate()

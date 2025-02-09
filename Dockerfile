@@ -5,7 +5,6 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 # Copia solo los archivos necesarios (¡no incluyas el log!)
 COPY servidor_preguntas.py .
 COPY preguntas_pokemon.json .
-COPY requirements.txt .
 
 # Crea el directorio de logs y instala dependencias
 RUN mkdir -p /app/logs && \

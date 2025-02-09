@@ -140,12 +140,12 @@
         "respuesta_correcta": "B"
     },
     {
-        "pregunta": "¿Qué Pokémon cuida constantemente Togepi en la primera temporada?",
+        "pregunta": "¿Qién es el entrenador de Togepi?",
         "opciones": {
             "A": "Ash",
             "B": "Misty",
             "C": "Brock",
-            "D": "Pikachu"
+            "D": "Sabrina"
         },
         "respuesta_correcta": "B"
     },
@@ -162,12 +162,12 @@
     {
         "pregunta": "¿Qué Pokémon se convierte en Butterfree tras evolucionar?",
         "opciones": {
-            "A": "Caterpie",
+            "A": "Venonath",
             "B": "Weedle",
             "C": "Metapod",
             "D": "Kakuna"
         },
-        "respuesta_correcta": "A"
+        "respuesta_correcta": "C"
     },
     {
         "pregunta": "¿Cuál es el ataque característico de Pikachu en el anime?",
@@ -230,7 +230,7 @@
         "respuesta_correcta": "B"
     },
     {
-        "pregunta": "¿Cuál es el Pokémon que Ash intenta atrapar en el primer episodio del anime?",
+        "pregunta": "¿Cuál es el primer Pokémon que Ash intenta atrapar y se le escapa?",
         "opciones": {
             "A": "Caterpie",
             "B": "Pidgey",
@@ -294,8 +294,8 @@
         "opciones": {
             "A": "Meowth",
             "B": "Koffing",
-            "C": "Weezing",
-            "D": "Victreebel"
+            "C": "Muk",
+            "D": "Weepinbell"
         },
         "respuesta_correcta": "B"
     },
@@ -320,7 +320,7 @@
         "respuesta_correcta": "A"
     },
     {
-        "pregunta": "¿Cómo se llama la competencia en la que Ash participa en la Liga Naranja?",
+        "pregunta": "¿Cómo se llama la competencia en la que Ash participa en las islas Naranja?",
         "opciones": {
             "A": "Liga Índigo",
             "B": "Liga Naranja",
@@ -370,7 +370,7 @@
         "respuesta_correcta": "D"
     },
     {
-        "pregunta": "¿Qué Pokémon captura Ash en la Isla Naranja que tiene habilidades artísticas?",
+        "pregunta": "¿Qué Pokémon captura Ash en la Isla Naranja ?",
         "opciones": {
             "A": "Smeargle",
             "B": "Scyther",
@@ -380,17 +380,17 @@
         "respuesta_correcta": "C"
     },
     {
-        "pregunta": "¿Qué objeto mágico busca siempre el Equipo Rocket?",
+        "pregunta": "¿Qué busca siempre el Equipo Rocket?",
         "opciones": {
-            "A": "Pokémon raros",
+            "A": "Robar Pokémon raros",
             "B": "La Poké Ball Maestra",
             "C": "Piedras evolutivas",
-            "D": "Pokémon Pikachu"
+            "D": "Robar dinero"
         },
         "respuesta_correcta": "D"
     },
     {
-        "pregunta": "¿Qué Pokémon se une al Escuadrón Squirtle liderado por Ash?",
+        "pregunta": "¿Qué Pokémon era parte de una pandilla antes de ser capturado por Ash?",
         "opciones": {
             "A": "Bulbasaur",
             "B": "Charmander",
