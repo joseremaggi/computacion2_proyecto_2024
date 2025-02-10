@@ -2,7 +2,7 @@ FROM python:3.11-slim
 WORKDIR /app
 ENV TZ=America/Argentina/Buenos_Aires
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-# Copia solo los archivos necesarios (¡no incluyas el log!)
+
 COPY servidor_preguntas.py .
 COPY preguntas_pokemon.json .
 
